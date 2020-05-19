@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.cal-row{
+  display: flex;
+}
+
+.cal-button{
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+}
+.calculator-main{
+  /* top:20%; */
+  display: flex;
+  align-items: center;
+justify-content: center;
+padding: 150px;
+}
+
+.calculator-root{
+  height: 100%;
+  width: 100%;
+}
+
+.cal-inside{
+  border: 1px solid black;
+}
+
+.final-value{
+  height: 50px;
+}
+
+.value-in{
+  float: right;
+  padding: 12px;
+} 
