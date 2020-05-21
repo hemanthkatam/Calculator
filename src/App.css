@@ -71,3 +71,25 @@ padding: 150px;
   float: right;
   padding: 12px;
 } 
+
+.scific{
+  display: flex;
+}
+
+.cal-light{
+  background-color: #fff;
+}
+.cal-dark{
+  background-color: #f0f0f0;
+}
+
+.cal-light .cal-inside .cal-row button, .cal-light .scific button{
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.cal-dark .cal-inside .cal-row button, .cal-dark .scific button{
+  background-color: #666;
+  color: #fff;
+}
+
